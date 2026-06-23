@@ -1,0 +1,10 @@
+tmp/
+assets/raw/
+assets/products/*
+!assets/products/*-transparent.webp
+assets/hero-natural-upscaled.png
+assets/contact-card.webp
+assets/qr.webp
+fliplink.html
+headers.txt
+sommys-cookie.pdf
