@@ -558,6 +558,12 @@ html[dir="rtl"] .flavor-order svg {
   object-position: center;
 }
 
+.gallery-campaign .gallery-exact-image {
+  height: 100%;
+  object-fit: contain;
+  background: #fff;
+}
+
 .gallery-caption {
   position: absolute;
   z-index: 2;

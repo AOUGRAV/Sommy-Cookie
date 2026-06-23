@@ -293,7 +293,7 @@
     const galleryStart = window.innerWidth <= 700 ? -2 : -4;
     document.querySelectorAll(".gallery-shot").forEach((shot) => {
       const image = shot.querySelector("img");
-      if (!image) return;
+      if (!image || image.dataset.staticMedia === "true") return;
 
       gsap.fromTo(image, { yPercent: galleryStart }, {
         yPercent: 0,
