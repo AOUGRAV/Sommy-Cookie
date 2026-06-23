@@ -539,7 +539,7 @@ html[dir="rtl"] .flavor-order svg {
 .gallery-shot.gallery-campaign {
   position: relative;
   grid-column: 1 / -1;
-  aspect-ratio: 16 / 9;
+  aspect-ratio: 956.636719 / 810;
   border-radius: 8px;
   box-shadow: 0 30px 80px rgba(112, 66, 75, 0.16);
 }
@@ -560,7 +560,7 @@ html[dir="rtl"] .flavor-order svg {
 
 .gallery-campaign .gallery-exact-image {
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
   background: #fff;
 }
 
@@ -903,7 +903,7 @@ html[dir="rtl"] .flavor-order svg {
   }
 
   .gallery-shot.gallery-campaign {
-    aspect-ratio: 4 / 5;
+    aspect-ratio: 956.636719 / 810;
   }
 
   .gallery-shot.gallery-campaign::after {
